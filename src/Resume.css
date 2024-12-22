@@ -1,0 +1,20 @@
+.resume-Button{
+    padding: 2px;
+    border-radius: 5px;
+    color:black
+}
+
+.resume-Button:hover{
+    background-color: #ffaa33;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Mobile View */
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }

@@ -1,0 +1,82 @@
+.about-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 50px;
+    color: #fff;
+  }
+  
+  .about-content {
+    display: flex;
+    gap: 30px;
+    max-width: 12000px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: 0;
+  }
+  
+  .about-image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ffaa33;
+  }
+  
+  .about-text {
+    max-width: 6000px;
+    font-family: "Arial", sans-serif;
+    text-align: left;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    font-size: 1.8rem;
+    color: #ffaa33;
+  }
+  
+  p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .highlight {
+    color: #ffaa33;
+  }
+  
+  .email-link {
+    color: #ffaa33;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .email-link:hover {
+    text-decoration: underline;
+  }
+
+  /************** Mobile View **********/
+
+
+@media only screen and (max-width: 425px) {
+  section {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .about-text p {
+    text-align: justify;
+    font-size: 0.8rem;
+  }
+
+  .about-text h1 {
+
+    font-size: 2.0rem;
+  }
+
+}

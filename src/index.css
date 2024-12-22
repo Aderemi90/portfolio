@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  background-image: url('./assets/Dark & Pencil.jpg');
+  background-size: cover;
+  width: 100vw;
+  background-repeat: no-repeat;
+}
+.hero{
+  display: flex;
+}
+
+header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 10px 20px;
+  background-color: #222; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+  font-size: 18px;
+  color: #fff; 
+  margin: 0;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li {
+  margin: 0 15px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #f4f4f4; 
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #ffcc00; 
+}
+
+.hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  flex-direction: column; 
+  height: 100vh;
+}
+.hero h1 {
+  margin: 0;
+  font-size: 2.5rem; 
+  color: #ffcc00; 
+  transition: color 0.3s ease; 
+}
+.hero h1:hover {
+  color: #ffaa33; 
+}
+footer {
+  color: #ffffff;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px; 
+  border-top: 1px solid #444;
+}
+
+
+footer .copy p {
+  margin: 0;
+  font-size: 14px; 
+}
+
+footer .footlink {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+footer .footlink a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+footer .footlink a:hover {
+  color: #ffaa33; 
+}
+
+footer .footlink div {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+footer .footlink div:hover {
+  text-decoration: underline;
+}
+nav ul li a.active {
+  font-weight: bold;
+  color: #ffaa33; 
+}
+
+
+
+/************** Mobile View **********/
+
+
+@media only screen and (max-width: 425px) {
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    flex-direction: column;
+    padding: 12px;
+    font-size: 2px;
+    align-items: center;
+    background: none;
+    box-shadow: none;
+  }
+
+  footer {
+    padding: 2px;
+    font-size: 2px;
+  }
+
+  
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  header h1 {
+    font-size: 18px;
+    color: #fff; 
+    margin: 0;
+  }
+  
+  
+  header nav ul li {
+    margin: 5px 10px;
+  }
+  
+}
